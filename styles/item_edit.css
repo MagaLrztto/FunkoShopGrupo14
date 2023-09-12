@@ -1,0 +1,102 @@
+.form_edititem{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    gap: 36px;
+    padding: 36px 115px 36px 115px;
+}
+
+h3 {
+    color: #1F1F1F;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
+
+.info_edititem{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+label{
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+
+select{
+    width: 243.034px;
+    height: 44.285px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+}
+
+input{
+    color: #B9B9B9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    border: none;
+    border-bottom: #FF3333 2px solid;
+}
+
+.btn_agregar{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.img_edititem{
+    border: none;
+}
+
+.nombre_edititem{
+    width:300px;
+}
+
+.sku_edititem, .precio_edititem{
+    width:130px ;
+}
+
+.stock_edititem, .desc_edititem{
+    width:55px;
+}
+
+.btn_edititem{
+    color: #FFFFFF;
+    background-color: #FF3333;
+    width: 175px;
+    height: 45px;
+    flex-shrink: 0;
+    border: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+textarea{
+    width: 828px;
+    height: 195px;
+    border-radius: 4px;
+}

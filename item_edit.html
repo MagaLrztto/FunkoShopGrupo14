@@ -23,7 +23,63 @@
         </nav>
     </header>
     <main>
- 
+        <section class="form_edititem">
+            <h1>EDITAR ITEM</h1>
+        <section class="info_edititem">
+            <!--Seleccionar categoria-->
+            <label for="">Categoría:</label>
+            <select class="categorie_edititem" name="categorias" id="categoria">
+                <option selected disabled value="">Seleccionar</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <!--Seleccionar Licencia-->
+            <label for="">Licencia:</label>
+            <select class="licencia_edititem" name="" id="Licencia">
+                <option selected disabled value="">Seleccionar</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </section>
+        <!--nombre del producto-->
+        <section class="info_edititem">
+            <label for="">Nombre del producto:</label>
+            <input class="nombre_edititem" type="text" placeholder="Kakashi Hatake Shippuden Saga">
+        </section>
+        <!--descripcion del producto-->
+        <textarea class="descript_edititem" name="" id="" cols="30" rows="10" placeholder="Descripción del producto"></textarea>                             
+        <!-- datos del producto-->
+        <section  class="info_edititem">
+            <label for="">SKU:</label>
+            <input class="sku_edititem" type="text" placeholder="SSK111AB001">
+            <label for="">Precio:</label>
+            <input class="precio_edititem" type="number" name="" id="" placeholder="$ 0.0000,00">
+            <label for="">Stock:</label>
+            <input class="stock_edititem" type="number" name="" placeholder="0">
+        </section>
+        <!--descuento-->
+        <section class="info_edititem">
+            <label for="">Descuento:</label>
+            <input class="desc_edititem" type="number" name="" id="" placeholder="0%">
+            <select name="desc_edititem" id="">
+                <option selected value="">3 cuotas sin interés</option>
+                <option value="">6 cuotas sin interés</option>
+                <option value=""></option>
+            </select>
+        </section class="info_edititem">
+        <!--ingreso de imagen-->
+        <section>
+            <label for="">Imágenes:</label>
+            <input class="img_edititem" type="file" name="imagenes" id="">
+        </section>
+        <!--botones agregar o limpiar-->
+        <section class="btn_agregar">
+            <button class="btn_edititem" type="submit" value="Modificar item">Modificar Producto</button>
+        </section>
+        </section>
+
     </main>
     <footer id="footer2">
         <section>
