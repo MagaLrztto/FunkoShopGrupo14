@@ -1,0 +1,80 @@
+#form_register{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px
+}
+
+h3{
+    color: #1F1F1F;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
+
+.p_form{
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+}
+
+.info_register{
+    width: 250px;
+    height: 24px;
+    border: none;
+    border-bottom: #FF3333 solid 2px;
+}
+
+.btn_registro{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_register{
+    color: #FFFFFF;
+    background-color: #FF3333;
+    width: 103px;
+    height: 39px;
+    flex-shrink: 0;
+    border: none;
+
+}
+
+.terms{
+    color: #1F1F1F;
+    font-family: Inter; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.link_terms{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
