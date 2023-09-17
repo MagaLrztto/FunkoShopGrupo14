@@ -6,15 +6,14 @@
     padding: 36px 115px 36px 115px;
 }
 
-h3 {
+h3{
     color: #1F1F1F;
-    text-align: right;
     font-family: Raleway;
-    font-size: 42px;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.68px;
+    letter-spacing: 0.168rem;
 }
 
 .info_newitem{
@@ -27,19 +26,19 @@ label{
     color: #000;
     text-align: right;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: 0.96px;
+    letter-spacing: 0.096rem;
 }
 
 select{
-    width: 243.034px;
-    height: 44.285px;
+    width: 243px;
+    height: 44px;
     flex-shrink: 0;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -47,14 +46,13 @@ select{
 }
 
 input{
-    color: #B9B9B9;
     text-align: center;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.072rem;
     border: none;
     border-bottom: #FF3333 2px solid;
 }
@@ -89,7 +87,7 @@ input{
     flex-shrink: 0;
     border: none;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -99,4 +97,8 @@ textarea{
     width: 828px;
     height: 195px;
     border-radius: 4px;
+}
+
+input, input::placeholder, option, textarea, textarea::placeholder{
+    font-size: 1.6rem;
 }
