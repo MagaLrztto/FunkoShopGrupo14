@@ -3,15 +3,91 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5% /*1rem=10px*/
+}
+
+header{
+    background-color: #30343F;
+    width: 100%;
+    height: 144px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #30343F;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 50px 110px 23px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* HEADER1 y FOOTER1: SHOP, ITEM, CARRITO, INDEX */
-
-
-
-
-
 /* HEADER2 y FOOTER2: ADMIN, REGISTER, LOGIN, ITEM_NUEVO, ITEM_EDIT */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.navbar__menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 350px;
+    align-items: center;
+}
+
+.navbar__menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_links_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+.navbar_ft a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_derechos{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 
 

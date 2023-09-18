@@ -13,21 +13,85 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="header2">
-        <nav>
+    <header id="header2"> <!--HEADER ADMIN-->
+        <nav class="navbar">
             <!-- Logo de Funko lleva al HOME/Index-->
-            <a href="index.html"><img src="./multimedia//branding/logo_light_horizontal.svg" alt="logo-header"></a>
-            <a href="shop.html">VER TIENDA</a>
-            <a href="admin.html">ADMIN</a>
-            <a href="">SALIR</a>
+            <section>
+                <picture class="navbar__logo">
+                    <a href="index.html">
+                        <img src="./multimedia//branding/logo_light_horizontal.svg" alt="logo-header">
+                    </a>
+                </picture>
+            </section>
+            <section class="navbar__menu">
+                <a href="shop.html">VER TIENDA</a>
+                <a href="admin.html">ADMIN</a>
+                <a href="">SALIR</a>
+            </section>    
         </nav>
     </header>
     <main>
- 
-    </main>
-    <footer id="footer2">
+        <section class="form_newitem">
+            <h3>CREAR NUEVO ITEM</h3>
+        <section class="info_newitem">
+            <!--Seleccionar categoria-->
+            <label for="">Categoría:</label>
+            <select class="categorie_newitem" name="categorias" id="categoria">
+                <option selected disabled value="">Seleccionar</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <!--Seleccionar Licencia-->
+            <label for="">Licencia:</label>
+            <select class="licencia_newitem" name="" id="Licencia">
+                <option selected disabled value="">Seleccionar</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </section>
+        <!--nombre del producto-->
+        <section class="info_newitem">
+            <label for="">Nombre del producto:</label>
+            <input class="nombre_newitem" type="text" placeholder="Kakashi Hatake Shippuden Saga">
+        </section>
+        <!--descripcion del producto-->
+        <textarea class="descript_newitem" name="" id="" cols="30" rows="10" placeholder="Descripción del producto"></textarea>                             
+        <!-- datos del producto-->
+        <section  class="info_newitem">
+            <label for="">SKU:</label>
+            <input class="sku_newitem" type="text" placeholder="SSK111AB001">
+            <label for="">Precio:</label>
+            <input class="precio_newitem" type="number" name="" id="" placeholder="$ 0.0000,00">
+            <label for="">Stock:</label>
+            <input class="stock_newitem" type="number" name="" placeholder="0">
+        </section>
+        <!--descuento-->
+        <section class="info_newitem">
+            <label for="">Descuento:</label>
+            <input class="desc_newitem" type="number" name="" id="" placeholder="0%">
+            <select name="desc_newitem" id="">
+                <option selected value="">3 cuotas sin interés</option>
+                <option value="">6 cuotas sin interés</option>
+                <option value=""></option>
+            </select>
+        </section class="info_newitem">
+        <!--ingreso de imagen-->
         <section>
-            <nav>
+            <label for="">Imágenes:</label>
+            <input class="img_newitem" type="file" name="imagenes" id="">
+        </section>
+        <!--botones agregar o limpiar-->
+        <section class="btn_agregar">
+            <button class="btn_newitem" type="submit" value="Agregar productos">Agregar Producto</button>
+            <button class="btn_newitem" type="submit" value="Limpiar">Limpiar</button>
+        </section>
+        </section>
+    </main>
+    <footer id="footer2"> <!--FOOTER ADMIN-->
+        <section class="footer_links_logo">
+            <nav class="navbar_ft">
                 <a href="shop.html">SHOP</a>
                 <a href="register.html">REGISTRARSE</a>
                 <a href="login.html">INGRESAR</a>
@@ -35,7 +99,7 @@
             </nav>
             <img src="./multimedia/branding/isotype.svg" alt="logo-footer">
         </section>
-        <section>
+        <section class="footer_derechos">
             All rights reserved 2023 - Funkoshop &copy;
         </section>        
     </footer>
