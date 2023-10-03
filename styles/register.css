@@ -1,0 +1,85 @@
+#form_register{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px
+}
+
+h3{
+    color: #1F1F1F;
+    font-family: Raleway;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.168rem;
+}
+
+.p_form{
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.128rem;
+}
+
+.info_register{
+    width: 250px;
+    height: 24px;
+    border: none;
+    border-bottom: #FF3333 solid 2px;
+}
+
+.btn_registro{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.btn_register{
+    color: #FFFFFF;
+    background-color: #FF3333;
+    width: 103px;
+    height: 39px;    
+    flex-shrink: 0;
+    border: none;
+    font-family: Inter; 
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+
+.terms{
+    color: #1F1F1F;
+    font-family: Inter; 
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.link_terms{
+    color: #1D84B5;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+input, input::placeholder{
+    font-size: 1.6rem;
+}
+

@@ -1,0 +1,103 @@
+.form_edititem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 36px;
+    padding: 36px 115px 36px 115px;
+}
+
+h3 {
+    color: #1F1F1F;
+    font-family: Raleway;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.168rem;
+}
+
+.info_edititem{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+label{
+    color: #000;
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.096rem;
+}
+
+select{
+    width: 243.034px;
+    height: 44.285px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+}
+
+input{
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.072rem;
+    border: none;
+    border-bottom: #FF3333 2px solid;
+}
+
+.btn_agregar{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.img_edititem{
+    border: none;
+}
+
+.nombre_edititem{
+    width:300px;
+}
+
+.sku_edititem, .precio_edititem{
+    width:130px ;
+}
+
+.stock_edititem, .desc_edititem{
+    width:55px;
+}
+
+.btn_edititem{
+    color: #FFFFFF;
+    background-color: #FF3333;
+    width: 175px;
+    height: 45px;
+    flex-shrink: 0;
+    border: none;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+textarea{
+    width: 828px;
+    height: 195px;
+    border-radius: 4px;
+}
+
+input, input::placeholder, option, textarea, textarea::placeholder{
+    font-size: 1.6rem;
+}

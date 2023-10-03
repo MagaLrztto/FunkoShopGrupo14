@@ -1,3 +1,59 @@
+#banner{
+    background-image: url(../multimedia/funkos-banner.webp);
+    width: 100%;
+    height: 388px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:bottom;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    padding: 110px;
+}
+
+.banner__text{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.banner__text h1{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner__text p{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner__btn{
+    width: 211px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #111;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 11px 77px;
+    text-decoration: none;
+}
+
 /*carousel*/
 
 #items_lanzamientos {
