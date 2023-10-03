@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME FunkoShop</title>
-<!--CSS-->
+    <!--CSS-->
     <link rel="stylesheet" href="./styles/general.css">
     <link rel="stylesheet" href="./styles/index.css">
-<!--GoogleFonts-->    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--GoogleFonts-->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header1">
@@ -25,56 +25,91 @@
     </header>
     <main>
         <section id="banner">
-            <h2>Nuevos Ingresos</h2>
+            <h3>Nuevos Ingresos</h3>
             <p>Descubrí el próximo Funko Pop de tu colección</p>
             <a href="shop.html">SHOP</a>
         </section>
         <section id="items_categorias">
             <article>
-                <h2>STAR WARS & THE MANDALORIAN</h2>
+                <h3>STAR WARS & THE MANDALORIAN</h3>
                 <p>Disfruta de una saga que sigue agregando personajes a su colección.</p>
                 <a href="">VER COLECCIÓN</a>
                 <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="baby-yoda">
             </article>
             <article>
-                <h2>POKEMON INDIGO</h2>
+                <h3>POKEMON INDIGO</h3>
                 <p>Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
                 <a href="">VER COLECCIÓN</a>
                 <img src="./multimedia/pokemon/vulpix-1.webp" alt="vulpix">
             </article>
             <article>
-                <h2>HARRY POTTER</h2>
+                <h3>HARRY POTTER</h3>
                 <p>Revive los recuerdos de una saga llena de magia y encanto.</p>
                 <a href="">VER COLECCIÓN</a>
                 <img src="./multimedia/harry-potter/snape-patronus-1.webp" alt="patronus">
             </article>
         </section>
-        <section id="items_lanzamientos">
-            <h2>ULTIMOS LANZAMIENTOS</h2>
-            <article>
-                <p>NUEVO</p>
-                <img src="./multimedia/star-wars/trooper-1.webp" alt="trooper">
-                <h4>STAR WARS</h4>
-                <h3>STORMTROOPER LIGHTSABER</h3>
-                <h4>$ 1799,99</h4>
-                <p>3 CUOTAS SIN INTERÉS</p>
-            </article>    
-            <article>
-                <p>NUEVO</p>
-                <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto">
-                <h4>POKEMON</h4>
-                <h3>PIDGEOTTO</h3>
-                <h4>$ 1799,99</h4>
-                <p>3 CUOTAS SIN INTERÉS</p>
-            </article>    
-            <article>
-                <p>NUEVO</p>
-                <img src="./multimedia/harry-potter/luna-1.webp" alt="luna">
-                <h4>HARRY POTTER</h4>
-                <h3>LUNA LOVEGOOD LION MASK</h3>
-                <h4>$ 1799,99</h4>
-                <p>3 CUOTAS SIN INTERÉS</p>
-            </article>
+        <section id="items_lanzamientos" class="container glide">
+            <h2>ÚLTIMOS LANZAMIENTOS</h2>
+            <div class="glide__track" data-glide-el="track">
+                <ul class="carousel_items glide__slides">
+                    <li class="carousel_item glide__slide">
+                        <article class="card-item">
+                            <a class="card-item__link" href="item.html">
+                                <picture class="card-item__cover">
+                                    <span class="card-item__tag">NUEVO</span>
+                                    <img class="card-item__img--front" src="./multimedia/star-wars/trooper-1.webp" alt="Figura coleccionable trooper">
+                                    <img class="card-item__img--back" src="./multimedia/star-wars/trooper-box.webp" alt="Figura coleccionable trooper en box">
+                                </picture>
+                                <div class="card-item__texto">
+                                <p class="card-item__licence">STAR WARS</p>
+                                <h4 class="card-item__name">STORMTROOPER LIGHTSABER</h4>
+                                <p class="card-item__price">$ 1799,99</p>
+                                <p class="card-item__condition">3 CUOTAS SIN INTERÉS</p>
+                                </div>
+                            </a>
+                        </article>    
+                    </li>
+                    <li class="carousel_item glide__slide">
+                        <article class="card-item">
+                            <a class="card-item__link" href="item.html">
+                                <picture class="card-item__cover">
+                                    <span class="card-item__tag">NUEVO</span>
+                                    <img class="card-item__img--front" src="./multimedia/pokemon/pidgeotto-1.webp" alt="Figura coleccionable pidgeotto">
+                                    <img class="card-item__img--back" src="./multimedia/pokemon/pidgeotto-box.webp" alt="Figura coleccionable pidgeotto en box">
+                                </picture>
+                                <div class="card-item__texto">
+                                    <p class="card-item__licence">POKEMON</p>
+                                    <h4 class="card-item__name">PIDGEOTTO</h4>
+                                    <p class="card-item__price">$ 1799,99</p>
+                                    <p class="card-item__condition">3 CUOTAS SIN INTERÉS</p>
+                                </div>
+                            </a>
+                        </article>    
+                    </li>
+                    <li class="carousel_item glide__slide">
+                        <article class="card-item">
+                            <a class="card-item__link" href="item.html">
+                                <picture class="card-item__cover">
+                                    <span class="card-item__tag">NUEVO</span>
+                                    <img class="card-item__img--front" src="./multimedia/harry-potter/luna-1.webp" alt="Figura coleccionable luna">
+                                    <img class="card-item__img--back" src="./multimedia/harry-potter/luna-box.webp" alt="Figura coleccionable luna en box">
+                                </picture>
+                                <div class="card-item__texto">
+                                    <p class="card-item__licence">HARRY POTTER</p>
+                                    <h4 class="card-item__name">LUNA LOVEGOOD LION MASK</h4>
+                                    <p class="card-item__price">$ 1799,99</p>
+                                    <p class="card-item__condition">3 CUOTAS SIN INTERÉS</p>
+                                </div>
+                            </a>
+                        </article>    
+                    </li>
+                </ul>
+            </div>
+            <div lass="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="mdi:chevron-left"></iconify-icon></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="mdi:chevron-right"></iconify-icon></button>
+            </div>
         </section>  
     </main>
     <footer id="footer1">
@@ -90,5 +125,23 @@
             All rights reserved 2023 - Funkoshop &copy;
         </section>        
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+        new Glide('.glide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        gap: 30,
+        breakpoint: {
+            991: {
+                perView: 2
+            },
+            768: {
+                perView: 1
+            }
+        }
+        }).mount();
+    </script>
 </body>
 </html>
