@@ -5,7 +5,7 @@
 /* NORMALIZACION */
 
 :root {
-    /* Peleta de colores */
+    /* Paleta de colores */
     --primary-solid: #FF3333;
     --primary-900: rgba(255, 51, 51, 0.9);
     --primary-500: rgba(255,51, 51, 0.5);
@@ -54,7 +54,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5% /*1rem=10px*/
 }
 
 header{
