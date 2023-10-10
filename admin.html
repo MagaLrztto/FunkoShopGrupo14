@@ -30,8 +30,48 @@
             </section>    
         </nav>
     </header>
-    <main>
- 
+    <main class="container">
+        <section class="admin_search">
+            <i class="fa-solid fa-magnifying-glass" class="admin__search_icon"></i>
+            <input type="search" name="admin_search" id="admin_search" placeholder="código, nombre o categoría">
+        </section>
+        <section class="admin_table_title">
+            <div>
+                <h2>Listado de productos</h2>
+            </div>
+            <div>
+                <a class="admin_p_add" href="./item_nuevo.html"> AGREGAR <i class="fa-solid fa-square-plus"></i> </a>
+            </div>
+        </section>
+        <section class="admin_table">   
+            <div>
+            <table> 
+                <thead>
+                  <tr>
+                    <th class="table_id">ID</th>
+                    <th>Código</th>
+                    <th>Nombre del Producto</th>
+                    <th>Categoría</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table_id">1</td>
+                    <td>STW001001</td>
+                    <td>Baby Yoda blueball</td>
+                    <td>STAR WARS</td>
+                    <td class="table_actions">
+                        <a href="./item_edit.html"><i class="fa-solid fa-pen"></i></a>
+                        <button type="button"><i class="fa-solid fa-trash-can"></i></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        
+        </section> 
+
     </main>
     <footer id="footer2"> <!--FOOTER ADMIN-->
         <section class="footer_links_logo">
@@ -47,5 +87,7 @@
             All rights reserved 2023 - Funkoshop &copy;
         </section>        
     </footer>
+<!--Fontawesome-->
+<script src="https://kit.fontawesome.com/cfc2431752.js" crossorigin="anonymous"></script>
 </body>
 </html>
