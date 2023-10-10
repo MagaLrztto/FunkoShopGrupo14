@@ -10,9 +10,9 @@
 }
 
 h3{
-    color: #1F1F1F;
-    font-family: Raleway;
-    font-size: 4.2rem;
+    color: var(--dark-solid);
+    font-family: var(--alternative-font);
+    font-size: var(--font-jumbo);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -23,14 +23,14 @@ h3{
     width: 250px;
     height: 24px;
     border: none;
-    border-bottom: #FF3333 solid 2px;
+    border-bottom: var(--primary-solid) solid 2px;
     
 }
 
 .text_login{
-    color: #000;
-    font-family: Inter;
-    font-size: 2.4rem;
+    color: var(--dark-solid);
+    font-family: var(--base-font);
+    font-size: var(--font-large);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -45,14 +45,14 @@ h3{
 }
 
 .btn_login{
-    color: #FFFFFF;
-    background-color: #FF3333;
+    color: var(--light-font-solid);
+    background-color: var(--primary-solid);
     width: 103px;
     height: 39px;
     flex-shrink: 0;
     border: none;
-    font-family: Inter; 
-    font-size: 1.2rem;
+    font-family: var(--base-font); 
+    font-size: var(--font-xsmall);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -61,9 +61,9 @@ h3{
 
 
 .recordarme{
-    color: #1F1F1F;
-    font-family: Inter; 
-    font-size: 1.8rem;
+    color: var(--dark-solid);
+    font-family: var(--base-font); 
+    font-size: var(--font-medium);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -71,9 +71,9 @@ h3{
 }
 
 .new_password{
-    color: #1D84B5;
-    font-family: Inter;
-    font-size: 1.4rem;
+    color: var(--seconday-solid);
+    font-family: var(--base-font);
+    font-size: var(--font-small);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -81,5 +81,5 @@ h3{
 }
 
 input, input::placeholder{
-    font-size: 1.6rem;
+    font-size: var(--font-xsmall);
 }
